@@ -44,7 +44,6 @@ export default function StronaGlowna() {
       </div>
 
       <div className="max-w-6xl mx-auto bg-[#12161f] border border-gray-800 rounded-2xl shadow-blue-950/20 overflow-hidden">{/*max-width: 72rem = 1152px border-width: 1px; border-style: solid*/}
-        {/* GÓRNA BELKA PRZEGLĄDARKI */}
         <div className="flex flex-wrap items-center justify-between gap-2 sm:gap-3 px-3 sm:px-4 py-3 bg-[#161b26] border-b border-gray-800">
           <div className="flex items-center gap-1.5 sm:gap-2">
             <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-red-500/80"></span>
@@ -80,9 +79,8 @@ export default function StronaGlowna() {
           </div>
         </div>
 
-        {/* TREŚĆ OKNA */}
+
         <div className="grid grid-cols-1 md:grid-cols-4 min-h-[380px] sm:min-h-[450px]">
-          {/* LEWY PANEL (na mobile pozioma przewijana lista, na desktopie pionowy pasek boczny) */}
           <div className="md:col-span-1 bg-[#0f131a] border-b md:border-b-0 md:border-r border-gray-800 p-3 sm:p-4">
             <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-3 md:mb-4">
               Nasze Realizacje
@@ -109,8 +107,6 @@ export default function StronaGlowna() {
               })}
             </div>
           </div>
-
-          {/* PRAWA KOLUMNA (podgląd) */}
           <div className="md:col-span-3 bg-[#0b0e14] p-4 sm:p-6 flex items-center justify-center overflow-hidden">
             {!aktywnyProjekt.zdjecieDesktop ? (
               <div className="text-center text-gray-500 py-12">
