@@ -4,13 +4,10 @@ export default function CzymSieZajmujemy() {
       {/* Górne nagłówki */}
       <nav className="bg-[#0e121a] border-y border-gray-800/60 py-7 px-6">
         <div className="relative flex justify-center items-center">
-          <div className="flex items-center gap-40 text-gray-400 text-xl font-medium">
+          <div className="flex items-center gap-80 text-gray-400 text-xl font-medium">
             <a href="#" className="hover:text-white transition-colors">JavaScript</a>
             <a href="#" className="hover:text-white transition-colors">React</a>
-            <a href="#" className="hover:text-white transition-colors">Vite</a>
-            <a href="#" className="hover:text-white transition-colors">HTML</a>
-            <a href="#" className="hover:text-white transition-colors">Css</a>
-            <a href="#" className="hover:text-white transition-colors">JSON</a>
+            <a href="#" className="hover:text-white transition-colors">Tailwind</a>
           </div>
         </div>
       </nav>
