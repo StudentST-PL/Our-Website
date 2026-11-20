@@ -30,7 +30,7 @@ export default function StronaGlowna() {
   const [widok, setWidok] = useState('laptop')
 
   return (
-    <section className="min-h-screen bg-[#0b0e14] text-white pt-14 sm:pt-20 pb-12 sm:pb-16 px-4 sm:px-6 overflow-x-hidden">
+    <section className="min-h-screen bg-[#0b0e14] text-white pt-14 sm:pt-30 pb-12 sm:pb-16 px-4 sm:px-6 overflow-x-hidden">
       <div className="max-w-3xl mx-auto text-center mb-10 sm:mb-14">{/*max-width-768px margin-inline-auto margin-bottom 56px */}
         <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-4 sm:mb-6"> {/*text-36px(2.25rem) sm:text-48px(3rem) md:text-60px(3.75rem) tracking-tight(letter-spacing: -0.025em leading-tight(line-height:1.25) margin-bottom-24px*/}
           Projektujemy i wdrażamy strony nowej generacji
