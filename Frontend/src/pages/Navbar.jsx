@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="bg-black text-grey-500 p-4">
+  <nav className="bg-black/40 text-grey-500 p-7 backdrop-blur-sm sticky top-0 z-50">
       <div className="flex justify-between items-center">
         
         <span className="text-xl font-bold tracking-tight text-white">
