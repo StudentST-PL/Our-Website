@@ -1,6 +1,6 @@
 import Navbar from './pages/Navbar'
 import StronaGlowna from './pages/StronaGlowna'
-import CoRobimy from './pages/CoRobimy'
+import CzymSieZajmujemy from './pages/CzymSieZajmujemy'
 import OstatnieRealizacje from './pages/OstatnieRealizacje'
 import Wspolpraca from './pages/Wspolpraca'
 import Cennik from './pages/Cennik'
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar />
       <StronaGlowna />
-      <CoRobimy />
+      <CzymSieZajmujemy />
       <OstatnieRealizacje />
       <Wspolpraca />
       <Cennik />
