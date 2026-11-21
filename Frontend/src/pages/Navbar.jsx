@@ -1,13 +1,13 @@
 export default function Navbar() {
   return (
-    <nav className="bg-black text-grey-500 p-4">
+  <nav className="bg-black/40 text-grey-500 py-5.5 px-8 backdrop-blur-sm top-0 z-50 fixed inset-x-0">
       <div className="flex justify-between items-center">
         
         <span className="text-xl font-bold tracking-tight text-white">
           KGI360Tech<span className="text-blue-500">.</span>
         </span>
 
-        <div className ="absolute left-1/2 -translate-x-1/2 flex items-center gap-8 text-gray-300 text-sm font-medium">
+        <div className ="flex items-center gap-8 text-gray-300 text-sm font-medium">
           <a href="#"className="hover:text-white transition-colors">Strona główna</a>
           <a href="#"className="hover:text-white transition-colors">Oferta</a>
           <a href="#"className="hover:text-white transition-colors">Realizacje</a>
