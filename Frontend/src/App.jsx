@@ -15,7 +15,6 @@ function App() {
       <CzymSieZajmujemy />
       <OstatnieRealizacje />
       <Wspolpraca />
-      <Cennik />
       <Kontakt />
       <Stopka />
     </div>
