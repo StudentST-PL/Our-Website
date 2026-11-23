@@ -4,8 +4,13 @@ export default function OstatnieRealizacje() {
       <div className="max-w-6xl mx-auto">
         
         {/* Opis sekcji */}
+
+        <p className="text-blue-500 text-xs text-center font-semibold uppercase tracking-widest mb-3">
+            PORTFOLIO
+        </p>
+
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <p className="text-4xl md:text-5xl font-bold text-white leading-tight mb-5">
+          <p className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-5">
             Dowiedz się więcej o naszych projektach
           </p>
         </div>
